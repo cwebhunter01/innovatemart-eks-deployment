@@ -1,5 +1,30 @@
-terraform.tfstate*
+# Terraform files
+*.tfstate
+*.tfstate.*
 .terraform/
-*.tfplan
-*.log
-*.backup
+terraform.tfplan
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+
+
+# Terraform provider plugins
+terraform-provider-*
+
+# Kubeconfig
+kubeconfig
+kubeconfig.*
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+
