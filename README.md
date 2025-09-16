@@ -153,7 +153,7 @@ Below are key screenshots that demonstrate the setup, deployment, and running st
 
 ## Accessing the Application
 
-1. **UI Endpoint**: [https://your-domain.com](http://aa5c8a59dcf43487c8cd29f9c3004b2e-334583084.us-east-1.elb.amazonaws.com
+1. **UI Endpoint**: [https://retail-store.com](http://aa5c8a59dcf43487c8cd29f9c3004b2e-334583084.us-east-1.elb.amazonaws.com
 ) 
 2. **Kubeconfig**: See [Developer Access](#developer-access) above.
 3. 
