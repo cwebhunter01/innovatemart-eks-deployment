@@ -20,24 +20,7 @@ output "cluster_security_group_id" {
 
 output "node_role_arn" {
   description = "ARN of the node IAM role (for aws-auth mapRoles)"
-  value       = aws_iam_role.node.arn
-}
-
-output "developer_arn" {
-  description = "Developer IAM user ARN (for aws-auth mapUsers)"
-  value       = aws_iam_user.developer.arn
-}
-
-output "developer_access_key_id" {
-  description = "Developer AWS access key id (sensitive)"
-  value       = aws_iam_access_key.developer_key.id
-  sensitive   = true
-}
-
-output "developer_secret_access_key" {
-  description = "Developer AWS secret access key (sensitive)"
-  value       = aws_iam_access_key.developer_key.secret
-  sensitive   = true
+  value       = aws_iam_role.eks_nodes.arn
 }
 
 output "kubectl_config" {
